@@ -19,3 +19,7 @@ Rust Version used:
 3. Run the binary depending on your OS
    > ./target/debug/cargo  
    > .\target\debug\cargo.exe
+4. You can also run and build in one command
+   > cargo run
+5. Finally we can build without creating binaries
+   > cargo check
