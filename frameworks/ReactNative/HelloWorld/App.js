@@ -14,7 +14,13 @@ const image = require("./assets/bg.jpg");
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      <ImageBackground source={image} resizeMode="cover" style={styles.image}>
+      <ImageBackground
+        blurRadius={10}
+        fadeDuration={1000} // This prop works only in android
+        source={image}
+        resizeMode="cover"
+        style={styles.image}
+      >
         <Text style={styles.textHead}>¡Hola Todos!</Text>
         <Text style={styles.text}>Llamo Raj</Text>
         <Attribution />
