@@ -2,9 +2,10 @@ import { StatusBar } from "expo-status-bar";
 import {
   ImageBackground,
   Pressable,
-  StyleSheet,
+  SafeAreaView,
   Text,
   View,
+  Linking,
 } from "react-native";
 import { styles } from "./styles";
 
@@ -12,14 +13,14 @@ const image = require("./assets/bg.jpg");
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <ImageBackground source={image} resizeMode="cover" style={styles.image}>
         <Text style={styles.textHead}>¡Hola Todos!</Text>
         <Text style={styles.text}>Llamo Raj</Text>
         <Attribution />
       </ImageBackground>
       <StatusBar style="auto" />
-    </View>
+    </SafeAreaView>
   );
 }
 
