@@ -21,7 +21,7 @@ export default function App() {
         resizeMode="cover"
         style={styles.image}
       >
-        <Text style={styles.textHead}>¡Hola Todos!</Text>
+        <Text style={styles.textHead}>¡Hola A Todos!</Text>
         <Text style={styles.text}>Llamo Raj</Text>
         <Attribution />
       </ImageBackground>
