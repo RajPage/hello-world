@@ -4,3 +4,6 @@ languages/Rust/hello_world.pdb
 languages/Rust/hello_world.exe
 languages/Rust/cargo/target/*
 languages/Rust/cargo/Cargo.lock
+
+# NPM
+frameworks/ReactNative/HelloWorld/package-lock.json
