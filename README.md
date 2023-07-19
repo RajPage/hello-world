@@ -6,6 +6,7 @@ This repository contains a collection of "Hello World" programs written in vario
 
 - [x] [Dart](languages/Dart/README.md)
 - [x] [Go](languages/Go/README.md)
+- [x] [Kotlin](languages/Kotlin/README.md)
 - [x] [Rust](languages/Rust/README.md)
 - [x] [React Native](frameworks/ReactNative/README.md)
 

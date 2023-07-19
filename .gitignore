@@ -7,3 +7,6 @@ languages/Rust/cargo/Cargo.lock
 
 # NPM
 frameworks/ReactNative/HelloWorld/package-lock.json
+
+# Kotlin
+languages/Kotlin/hello_world.jar
